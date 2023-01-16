@@ -1,0 +1,22 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@400;600;700&family=Open+Sans:wght@400;600;700;800&family=PT+Serif:wght@400;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+:root{
+    --bg-color:#EA5823;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    text-rendering: optimizeSpeed;
+}
