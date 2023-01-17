@@ -8,7 +8,7 @@ import {DefaultLayout} from './components/Layout'
 function App() {
   return (
   <Router>
-      <div className="App">
+    
           <Routes>
             {publicRoutes.map((route, index) => {
                 const Layout = route.Layout || DefaultLayout;
@@ -28,7 +28,7 @@ function App() {
               {/* <Route path='/' element={<Home />}/>
               <Route path='/' element={<Members />}/> */}
           </Routes>
-      </div>
+      
   </Router>
   );
 }
